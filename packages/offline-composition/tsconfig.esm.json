@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
+    "module": "ESNext",
+    "outDir": "dist/esm"
+  },
+  "references": [{ "path": "../load-json/tsconfig.esm.json" }]
+}
